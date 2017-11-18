@@ -1,0 +1,13 @@
+// Styling for the services section
+.service-heading {
+  margin: 15px 0;
+  text-transform: none;
+}
+
+#services {
+  background: #c1c2ff; /* Old browsers */
+  background: -moz-linear-gradient(top, #c1c2ff 0%, #a521bc 99%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #c1c2ff 0%,#a521bc 99%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #c1c2ff 0%,#a521bc 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
