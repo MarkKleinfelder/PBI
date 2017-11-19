@@ -31,15 +31,25 @@ $(function() {
         cache: false,
         success: function() {
           // Success message
-          $('#success').html("<div class='alert alert-success'>");
-          $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
-            .append("</button>");
-          $('#success > .alert-success')
-            .append("<strong>Your message has been sent. </strong>");
-          $('#success > .alert-success')
-            .append('</div>');
-          //clear all fields
-          $('#contactForm').trigger("reset");
+          // $('#success').html("<div class='alert alert-success'>");
+          // $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
+          //   .append("</button>");
+          // $('#success > .alert-success')
+          //   .append("<strong>Your message has been sent. </strong>");
+          // $('#success > .alert-success')
+          //   .append('</div>');
+          // //clear all fields
+          // $('#contactForm').trigger("reset");
+
+          $( "<section class='container results'><h1>Your Message:</h1>" ).appendTo(main);
+          //$('.results').append("<p>").append("The very " + $('#noun-2').val());
+          if($('#noun-2').val() === ""){
+          $('#noun-2').val("great ");
+          }
+          $('.results').append("<p>The very "+ $('#noun-2').val().toLowerCase() + " " + $('#name').val() + " would like to know more about " + $('#verb-1').val().toLowerCase() + " production.</p>");
+          $('.results').append("<p>$('#mission').val() </p>");
+          $('.results').append("<p class='quote'>").append("Of all the agencies in all the towns in all the world, " + $("#name").val() + " walks into PB&I");
+      
         },
         error: function() {
           // Fail message
