@@ -12,8 +12,8 @@
     "template"
   ],
   "scripts": {
-  "build": "gulp",
-  "start": "node app.js"
+  "start": "nodemon app.js",
+  "heroku-postbuild": "gulp"
 },
   "homepage": "https://startbootstrap.com/template-overviews/agency",
   "bugs": {
