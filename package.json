@@ -12,8 +12,8 @@
     "template"
   ],
   "scripts": {
-  "build": "gulp",
-  "start": "node gulpfile.js"
+  "postinstall": "gulp build",
+  "start": "nf start"
 },
   "homepage": "https://startbootstrap.com/template-overviews/agency",
   "bugs": {
