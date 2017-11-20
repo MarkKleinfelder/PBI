@@ -12,7 +12,7 @@
     "template"
   ],
   "scripts": {
-   "start": "node gulpfile.js"
+   "start": "node index.js"
     },
 
   "homepage": "https://startbootstrap.com/template-overviews/agency",
