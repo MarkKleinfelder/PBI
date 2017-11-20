@@ -12,8 +12,7 @@
     "template"
   ],
   "scripts": {
-  "start": "nodemon app.js",
-  "heroku-postbuild": "gulp"
+    "start": "gulp serve"
 },
   "homepage": "https://startbootstrap.com/template-overviews/agency",
   "bugs": {
