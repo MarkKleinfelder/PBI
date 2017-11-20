@@ -11,10 +11,6 @@
     "theme",
     "template"
   ],
-  "scripts": {
-  "preinstall": "gulp build",
-  "start": "node app.js"
-},
   "homepage": "https://startbootstrap.com/template-overviews/agency",
   "bugs": {
     "url": "https://github.com/BlackrockDigital/startbootstrap-agency/issues",
