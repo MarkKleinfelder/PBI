@@ -112,10 +112,3 @@ gulp.task('dev', ['browserSync', 'sass', 'minify-css', 'minify-js'], function() 
   gulp.watch('js/**/*.js', browserSync.reload);
 });
 
-gulp.task('serveprod', function() {
-  connect.server({
-    root: [your_project_path],
-    port: process.env.PORT || 5000, // localhost:5000
-    livereload: false
-  });
-});
