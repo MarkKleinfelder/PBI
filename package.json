@@ -11,10 +11,8 @@
     "theme",
     "template"
   ],
-  "main": "gulpfile.js",
-  "scripts": {
-   "start": "node index.js"
-    },
+ 
+  
 
   "homepage": "https://startbootstrap.com/template-overviews/agency",
   "bugs": {
