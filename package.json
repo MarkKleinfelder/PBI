@@ -11,6 +11,7 @@
     "theme",
     "template"
   ],
+  "start": "node server.js",
   "homepage": "https://startbootstrap.com/template-overviews/agency",
   "bugs": {
     "url": "https://github.com/BlackrockDigital/startbootstrap-agency/issues",
