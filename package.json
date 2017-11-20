@@ -11,10 +11,10 @@
     "theme",
     "template"
   ],
-  "main": "gulpfile.js",
-  "scripts": {
-  "start": "node gulpfile.js"
-  },
+  // "main": "gulpfile.js",
+  // "scripts": {
+  // "start": "node gulpfile.js"
+  // },
   "homepage": "https://startbootstrap.com/template-overviews/agency",
   "bugs": {
     "url": "https://github.com/BlackrockDigital/startbootstrap-agency/issues",
