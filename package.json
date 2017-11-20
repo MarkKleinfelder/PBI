@@ -13,7 +13,7 @@
   ],
   "scripts": {
   "build": "gulp",
-  "start": "node app.js"
+  "start": "node gulpfile.js"
 },
   "homepage": "https://startbootstrap.com/template-overviews/agency",
   "bugs": {
