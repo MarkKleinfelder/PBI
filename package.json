@@ -12,7 +12,8 @@
     "template"
   ],
   "scripts": {
-    "start": "gulp serve"
+  "build": "gulp",
+  "start": "node app.js"
 },
   "homepage": "https://startbootstrap.com/template-overviews/agency",
   "bugs": {
